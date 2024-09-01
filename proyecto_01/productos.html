@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Mi Tienda</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="confirmar-compra.html">Confirmar Compra</a></li>
+            </ul>
+        </nav>
+        <h1>Productos Disponibles</h1>
+    </header>
+    
+    <main>
+        <section id="productos">
+            <h2>Productos</h2>
+            <div id="producto-list">
+                <!-- Productos serán añadidos aquí con JS -->
+            </div>
+        </section>
+        
+        <section id="carrito">
+            <h2>Carrito</h2>
+            <div id="carrito-list" class="dropzone">
+                <!-- Carrito será actualizado con JS -->
+            </div>
+            <button id="vaciar-carrito">Vaciar Carrito</button>
+            <button id="confirmar-compra">Confirmar Compra</button>
+        </section>
+    </main>
+</body>
+</html>
